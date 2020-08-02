@@ -1,0 +1,141 @@
+  /* Mobile Styles */
+  @media only screen and (min-width: 100px) and (max-width: 500px) {
+    .midi {
+        display: inline-block;
+        background-color: white;
+        text-align: center;
+        font-family: Roboto;
+        padding-top: 60px;
+        padding-right: 4px;
+        padding-left: 4px;
+        max-width: 295px;
+        width: 295px;
+        border-radius: 12px;
+        height: 500px;
+        max-height: 500px;
+        margin-top: 40px;
+        margin-right: 12px;
+        margin-left: 12px;  
+    }  
+      }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 501px) and (max-width: 960px) {
+    .midi {
+        display: inline-block;
+        background-color: white;
+        text-align: center;
+        font-family: Roboto;
+        padding-top: 60px;
+        padding-right: 12px;
+        padding-left: 12px;
+        max-width: 495px;
+        width: 495px;
+        border-radius: 12px;
+        height: 500px;
+        max-height: 500px;
+        margin-top: 40px;
+        margin-right: 60px;
+        margin-left: 60px;
+    }  
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    .midi {
+        display: inline-block;
+        background-color: white;
+        text-align: center;
+        font-family: Roboto;
+        padding-top: 60px;
+        padding-right: 12px;
+        padding-left: 12px;
+        max-width: 695px;
+        width: 695px;
+        border-radius: 12px;
+        height: 700px;
+        max-height: 700px;
+        margin-top: 40px;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+  }
+
+body {
+    background-color: #cacecd;
+    text-align: center;
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+}
+.navbar {
+    position: relative;
+    z-index: 9999;
+   font-family: Roboto;
+   height: 40px;
+   border-radius: 12px;
+   margin-top: -12px;
+   margin-bottom: -56px;
+   max-width: 715px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+   background-color: #004b85;
+}
+.navtext {
+    text-align: center;
+    padding-top: 6px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #009b67;
+    border-radius: 18px;
+    max-width: 180px;
+    height: 34px;
+}
+
+.pate {
+    padding-top: 0px;
+    margin-top: -36px;
+    font-size: 24px;
+}
+
+
+.toad {
+    padding-top: 18px;
+}
+
+.frog {
+    padding-top: 20px;
+
+}
+
+.bird {
+    width: 32px;
+    height: 32px;
+}
+
+.mink {
+    max-width: 600px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    background-color: #009b67;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 18px;
+}
